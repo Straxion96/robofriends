@@ -1,15 +1,16 @@
 import React from 'react';
-import './ Hello.css'
+import ReactDOM from 'react-dom/client';
+import './Hello.css';
 
-class react extends React.Component{
+class Hello extends React.Component{
     render(){
-        render(
+        return(
             <div>
                 <h1>Hello World</h1>
                 <p>Welcome to React!!</p>
             </div>
         );
-    }
-}
+    };
+};
 
 export default Hello; 
